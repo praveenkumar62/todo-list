@@ -1,0 +1,102 @@
+#total
+{
+    overflow: hidden;
+}
+
+#page-header
+{
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+    height: 130px;
+}
+
+#page-header h1
+{
+    color: orange;
+    font-weight: 500;
+    margin-top: 0;
+    padding: 20px 0 0px 0;
+}
+#page-header h1 small
+{
+    color: rgb(177, 177, 177);
+}
+
+.search-container
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+input[type="text"]
+{
+    display:inline-block;
+    max-width: 68%;
+}
+
+.check-box
+{
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid orange;
+    padding: 3px 10px 1px 5px;
+}
+
+
+.container-body
+{
+    margin: 15px;
+}
+
+.panel1
+{
+    height: 342px;
+    overflow-y: auto;
+}
+
+.well
+{
+    margin: 20px;
+    position: relative;
+}
+
+.well .fa-pencil-square-o
+{
+    font-size: 20px;
+    position: absolute;
+    right: 65px;
+}
+
+.well .fa-times-circle-o
+{
+    font-size: 20px;
+    position: absolute;
+    right: 30px;
+}
+
+.well p
+{
+    margin:0;
+}
+
+
+
+#add-container .inputs
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-30%);
+    width: 70%;
+}
+
+
+.btn-add
+{
+    display: inline-block;
+    color: white;
+    background-color: rgb(34, 158, 34); 
+    width: 140px;
+}
